@@ -1,0 +1,52 @@
+
+body {
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding:3%;
+    background-color: #7209b7;
+    color:#e5e5e5;
+}
+h1{
+    font-size: 3em;
+    color:#e5e5e5;
+    text-align: center;
+    padding:1rem;
+    width: 90%;
+    border: solid 5px #e5e5e5;
+    border-radius: 10px; 
+    outline:3px solid #caf0f8 ;
+    margin: 0.5rem auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tools{
+    border: 3px solid #e5e5e5;
+    width: 90%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:#560bad ;
+    margin: 2rem;
+}
+
+/*Typography*/
+
+input, button{
+    font :inherit
+}
+    a{
+        color: #caf0f8;
+    }
+    a:visited{
+        color:  #80ed99;
+    }
+    a:hover, a:active{
+color: #caf7f8;
+    }
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding :0.5rem;
+}
