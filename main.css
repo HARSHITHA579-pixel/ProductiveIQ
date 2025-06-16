@@ -10,8 +10,8 @@ body {
 h1{
     font-size: 3em;
     color:#e5e5e5;
+    padding: 0.5rem;
     text-align: center;
-    padding:1rem;
     width: 90%;
     border: solid 5px #e5e5e5;
     border-radius: 10px; 
@@ -24,9 +24,8 @@ h1{
     border: 3px solid #e5e5e5;
     width: 90%;
     border-radius: 10px;
-    padding: 1rem;
     background-color:#560bad ;
-    margin: 2rem;
+    margin: 2rem auto;
 }
 
 /*Typography*/
@@ -35,18 +34,70 @@ input, button{
     font :inherit
 }
     a{
-        color: #caf0f8;
+        color: #ffffff;
+        text-decoration: none;
     }
     a:visited{
-        color:  #80ed99;
+        color:  whitesmoke;
     }
-    a:hover, a:active{
-color: #caf7f8;
+    a:hover, a:focus{
+        background-color:  #533369;
+         opacity:0.8;
     }
-
+    a:active{
+         color: #caf7f8;
+    }
+    h2{
+        font-size: 2em;
+      color: #f72585;
+    }
+    .quote{
+        font-size: 1.5em;
+        color: #f72585;
+        font-style: italic;
+        background-color: peachpuff;
+        border:3px;
+        border-radius: 10px 10px 0 0 ;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+.technique {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 2em;
+    font-weight: 400%;
+    font-size: 1.2em;
+    color: #fdfdfd;
+    line-height: 1.6;
+}
 table, tr, th, td, caption {
-    border: 1px solid #eee;
+    border: 1px solid #ffffff;
     font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
+    border-collapse: collapse; 
     padding :0.5rem;
 }
+.links{
+   color: whitesmoke;
+   list-style-type: none;
+   padding-left: 0;
+   text-align:right;
+   margin :0;
+   display: flex;
+   text-align: right;
+}
+.links a{
+display:inline-block;
+margin-inline: 1rem
+}
+.links a:visited {
+ text-decoration: none;
+ color: lightgoldenrodyellow;
+ 
+}
+.links a:hover, 
+li a:focus{
+background: #42076a;
+color:#f72585;
+text-decoration:underline;
+cursor: pointer;
+} 
